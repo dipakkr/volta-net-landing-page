@@ -8,3 +8,9 @@
   box-sizing: border-box;
 }
 
+.line1{
+  background: radial-gradient(50% 50% at 50% 50%, rgb(64, 124, 255), rgb(24, 24, 27));
+}
+.lineStyle{
+  background: linear-gradient(90deg, rgb(255, 255, 255), rgb(64, 124, 255), rgb(24, 24, 27));
+}
