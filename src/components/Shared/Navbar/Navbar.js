@@ -6,17 +6,17 @@ const Navbar = () => {
     "text-sm font-medium text-[#d4d4d8] hover:text-[#f6f6f6] focus:outline-none";
 
   return (
-    <header class="relative z-10">
-      <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
-        <nav class="flex h-16 items-center justify-between">
-          <div class="flex lg:min-w-0">
+    <header className="relative z-10">
+      <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+        <nav className="flex h-16 items-center justify-between">
+          <div className="flex lg:min-w-0">
             {/**************** * Logo *************** */}
-            <Link href="/" class="flex items-center">
+            <Link href="/" className="flex items-center">
               <svg
                 viewBox="0 0 778 222"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5"
+                className="h-5"
               >
                 <g clip-path="url(#clip0_17_17)">
                   <path
@@ -53,12 +53,12 @@ const Navbar = () => {
             </Link>
           </div>
           {/***************** hamburger menu ****************/}
-          <div class="flex cursor-pointer lg:hidden">
+          <div className="flex cursor-pointer lg:hidden">
             <AiOutlineMenu size={24} />
           </div>
 
           {/*****************Middle  Menu ****************/}
-          <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
+          <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
             <Link href="/" className={`${linkStyle}`}>
               Guide
             </Link>
@@ -74,9 +74,9 @@ const Navbar = () => {
           </div>
 
           {/*****************Right Login  Button ****************/}
-          <div class="hidden lg:flex lg:min-w-0 lg:justify-end">
+          <div className="hidden lg:flex lg:min-w-0 lg:justify-end">
             <button
-              class=" rounded-full border  border-transparent bg-white px-3  py-2 text-sm font-medium leading-4 text-black shadow-sm "
+              className=" rounded-full border  border-transparent bg-white px-3  py-2 text-sm font-medium leading-4 text-black shadow-sm "
               type="button"
             >
               {" "}
