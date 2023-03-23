@@ -14,3 +14,17 @@
 .lineStyle{
   background: linear-gradient(90deg, rgb(255, 255, 255), rgb(64, 124, 255), rgb(24, 24, 27));
 }
+
+.line2{
+  background:linear-gradient(90deg, #18181b,#DA8BFF,#FFFFFF);
+}
+
+.lineStyle2{
+  background: radial-gradient(50% 50% at 50% 50%, #DA8BFF, #18181b);
+}
+.lineStyle3{
+  background: radial-gradient(50% 50% at 50% 50%, #DA8BFF, #18181b);
+}
+.notification_bg{
+  background: radial-gradient(50% 50% at 50% 50%, #DA8BFF, #18181b);
+}
