@@ -52,7 +52,7 @@ const Banner = () => {
       {/***************** Hero Banner Bottom Image ****************/}
       <div className="relative hidden sm:block">
         <div className="mx-auto max-w-7xl px-4 pb-16 sm:px-6 lg:px-8">
-          <div className="relative rounded-lg bg-gradient-to-r from-[#f89ba2] via-[#d692f4] to-[#978cf9] p-[.7px]">
+          <div className="relative rounded-lg bg-gradient-to-r from-[#f89ba2] via-[#d692f4] to-[#978cf9] p-[1px]">
             <div className="overflow-hidden rounded-lg">
               <Image
                 src="/assets/home/screenshot.png"
