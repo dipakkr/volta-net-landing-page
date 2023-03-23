@@ -2,11 +2,11 @@ import Image from "next/image";
 
 const Features = () => {
   return (
-    <div class="mx-auto max-w-7xl px-4 pb-16 sm:px-6 lg:px-8 ">
-      <div class=" flex flex-col gap-8 lg:grid lg:auto-rows-[3rem] lg:grid-cols-12">
-        <div class="relative col-span-8 row-span-3 flex cursor-pointer flex-col items-center overflow-hidden rounded-lg border-gray-700/50 py-4 transition-colors hover:border-white/10 hover:bg-white/5 lg:border lg:bg-gray-800/50 lg:p-8">
-          <div class="w-full text-center lg:text-left">
-            <div class=" mx-auto mb-4 flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-gray-900/90 lg:mx-0 lg:bg-gray-800/75 lg:group-hover:bg-white/5">
+    <div className="mx-auto max-w-7xl px-4 pb-16 sm:px-6 lg:px-8 ">
+      <div className=" flex flex-col gap-8 lg:grid lg:auto-rows-[3rem] lg:grid-cols-12">
+        <div className="relative col-span-8 row-span-3 flex cursor-pointer flex-col items-center overflow-hidden rounded-lg border-gray-700/50 py-4 transition-colors hover:border-white/10 hover:bg-white/5 lg:border lg:bg-gray-800/50 lg:p-8">
+          <div className="w-full text-center lg:text-left">
+            <div className=" mx-auto mb-4 flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-gray-900/90 lg:mx-0 lg:bg-gray-800/75 lg:group-hover:bg-white/5">
               <Image
                 src="/assets/home/filter.svg"
                 alt="filter icon"
@@ -15,14 +15,14 @@ const Features = () => {
                 height={80}
               />
             </div>
-            <h3 class="text-lg font-medium tracking-tight">Advanced filters</h3>
-            <p class="mt-1">
+            <h3 className="text-lg font-medium tracking-tight">Advanced filters</h3>
+            <p className="mt-1">
               Filter notifications and issues by any property with logical
               operators.
             </p>
-            <p class="mt-3 text-sm lg:hidden"> Read more → </p>
+            <p className="mt-3 text-sm lg:hidden"> Read more → </p>
           </div>
-          <div class="hidden lg:block">
+          <div className="hidden lg:block">
             <Image
               src="/assets/home/filterImg.svg"
               alt="filter"
@@ -33,9 +33,9 @@ const Features = () => {
             />
           </div>
         </div>
-        <div class="relative col-span-4 row-span-6 flex cursor-pointer flex-col items-center overflow-hidden rounded-lg border-gray-700/50 py-4 transition-colors hover:border-white/10 hover:bg-white/5 lg:border lg:bg-gray-800/50 lg:p-8">
-          <div class="w-full text-center lg:text-left">
-            <div class=" mx-auto mb-4 flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-gray-900/90 lg:mx-0 lg:bg-gray-800/75 lg:group-hover:bg-white/5">
+        <div className="relative col-span-4 row-span-6 flex cursor-pointer flex-col items-center overflow-hidden rounded-lg border-gray-700/50 py-4 transition-colors hover:border-white/10 hover:bg-white/5 lg:border lg:bg-gray-800/50 lg:p-8">
+          <div className="w-full text-center lg:text-left">
+            <div className=" mx-auto mb-4 flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-gray-900/90 lg:mx-0 lg:bg-gray-800/75 lg:group-hover:bg-white/5">
               <Image
                 src="/assets/home/editor.svg"
                 alt="icon"
@@ -44,13 +44,13 @@ const Features = () => {
                 height={80}
               />
             </div>
-            <h3 class="text-lg font-medium tracking-tight">Markdown editor</h3>
-            <p class="mt-1">
+            <h3 className="text-lg font-medium tracking-tight">Markdown editor</h3>
+            <p className="mt-1">
               Take advantage of our powerful editor to write markdown with ease.
             </p>
-            <p class="mt-3 text-sm lg:hidden"> Read more → </p>
+            <p className="mt-3 text-sm lg:hidden"> Read more → </p>
           </div>
-          <div class="hidden lg:block">
+          <div className="hidden lg:block">
             <Image
               src="/assets/home/editorImg.svg"
               alt="Markdown editor"
@@ -61,9 +61,9 @@ const Features = () => {
             />
           </div>
         </div>
-        <div class=" col-span-4 row-span-3 flex cursor-pointer items-center overflow-hidden rounded-lg border-gray-700/50 py-4 transition-colors hover:border-white/10 hover:bg-white/5 lg:border lg:bg-gray-800/50 lg:p-8">
-          <div class="w-full text-center lg:text-left">
-            <div class=" mx-auto mb-4 flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-gray-900/90 lg:mx-0 lg:bg-gray-800/75 lg:group-hover:bg-white/5">
+        <div className=" col-span-4 row-span-3 flex cursor-pointer items-center overflow-hidden rounded-lg border-gray-700/50 py-4 transition-colors hover:border-white/10 hover:bg-white/5 lg:border lg:bg-gray-800/50 lg:p-8">
+          <div className="w-full text-center lg:text-left">
+            <div className=" mx-auto mb-4 flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-gray-900/90 lg:mx-0 lg:bg-gray-800/75 lg:group-hover:bg-white/5">
               <Image
                 src="/assets/home/mobile.svg"
                 alt="icon"
@@ -72,17 +72,17 @@ const Features = () => {
                 height={80}
               />
             </div>
-            <h3 class="text-lg font-medium tracking-tight">Mobile ready</h3>
-            <p class="mt-1">
+            <h3 className="text-lg font-medium tracking-tight">Mobile ready</h3>
+            <p className="mt-1">
               Take advantage of our PWA to use Volta on your mobile or tablet
               devices.
             </p>
-            <p class="mt-3 text-sm lg:hidden"> Read more → </p>
+            <p className="mt-3 text-sm lg:hidden"> Read more → </p>
           </div>
         </div>
-        <div class=" col-span-4 row-span-3 flex items-center overflow-hidden rounded-lg border-gray-700/50 py-4 lg:border lg:bg-gray-800/50 lg:p-8">
-          <div class="w-full text-center lg:text-left">
-            <div class=" mx-auto mb-4 flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-gray-900/90 lg:mx-0 lg:bg-gray-800/75 lg:group-hover:bg-white/5">
+        <div className=" col-span-4 row-span-3 flex items-center overflow-hidden rounded-lg border-gray-700/50 py-4 lg:border lg:bg-gray-800/50 lg:p-8">
+          <div className="w-full text-center lg:text-left">
+            <div className=" mx-auto mb-4 flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-gray-900/90 lg:mx-0 lg:bg-gray-800/75 lg:group-hover:bg-white/5">
               <Image
                 src="/assets/home/darkLight.svg"
                 alt="icon"
@@ -91,16 +91,16 @@ const Features = () => {
                 height={80}
               />
             </div>
-            <h3 class="text-lg font-medium tracking-tight">Light &amp; Dark</h3>
-            <p class="mt-1">
+            <h3 className="text-lg font-medium tracking-tight">Light &amp; Dark</h3>
+            <p className="mt-1">
               Make the Volta app your own and fit your OS. Can be changed
               anytime.
             </p>
           </div>
         </div>
-        <div class=" col-span-6 row-span-3 flex items-center overflow-hidden rounded-lg border-gray-700/50 py-4 lg:border lg:bg-gray-800/50 lg:p-8">
-          <div class="w-full text-center lg:text-left">
-            <div class=" mx-auto mb-4 flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-gray-900/90 lg:mx-0 lg:bg-gray-800/75 lg:group-hover:bg-white/5">
+        <div className=" col-span-6 row-span-3 flex items-center overflow-hidden rounded-lg border-gray-700/50 py-4 lg:border lg:bg-gray-800/50 lg:p-8">
+          <div className="w-full text-center lg:text-left">
+            <div className=" mx-auto mb-4 flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-gray-900/90 lg:mx-0 lg:bg-gray-800/75 lg:group-hover:bg-white/5">
               <Image
                 src="/assets/home/keyboard.svg"
                 alt="icon"
@@ -109,14 +109,14 @@ const Features = () => {
                 height={80}
               />
             </div>
-            <h3 class="text-lg font-medium tracking-tight">
+            <h3 className="text-lg font-medium tracking-tight">
               Keyboard-first design
             </h3>
-            <p class="mt-1">
+            <p className="mt-1">
               Optimized for efficiency with shortcuts for everything.
             </p>
           </div>
-          <div class="hidden lg:block">
+          <div className="hidden lg:block">
             <Image
               src="/assets/home/shortcuts.svg"
               alt="keyboard shortcuts"
@@ -127,9 +127,9 @@ const Features = () => {
             />
           </div>
         </div>
-        <div class=" col-span-6 row-span-3 flex cursor-pointer items-center overflow-hidden rounded-lg border-gray-700/50 py-4 transition-colors hover:border-white/10 hover:bg-white/5 lg:border lg:bg-gray-800/50 lg:p-8">
-          <div class="w-full text-center lg:text-left">
-            <div class=" mx-auto mb-4 flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-gray-900/90 lg:mx-0 lg:bg-gray-800/75 lg:group-hover:bg-white/5">
+        <div className=" col-span-6 row-span-3 flex cursor-pointer items-center overflow-hidden rounded-lg border-gray-700/50 py-4 transition-colors hover:border-white/10 hover:bg-white/5 lg:border lg:bg-gray-800/50 lg:p-8">
+          <div className="w-full text-center lg:text-left">
+            <div className=" mx-auto mb-4 flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-gray-900/90 lg:mx-0 lg:bg-gray-800/75 lg:group-hover:bg-white/5">
               <Image
                 src="/assets/home/desktop.svg"
                 alt="icon"
@@ -138,15 +138,15 @@ const Features = () => {
                 height={80}
               />
             </div>
-            <h3 class="text-lg font-medium tracking-tight">
+            <h3 className="text-lg font-medium tracking-tight">
               Desktop application
             </h3>
-            <p class="mt-1">
+            <p className="mt-1">
               Install Volta on your desktop for a native experience.
             </p>
-            <p class="mt-3 text-sm lg:hidden"> Read more → </p>
+            <p className="mt-3 text-sm lg:hidden"> Read more → </p>
           </div>
-          <div class="hidden lg:block">
+          <div className="hidden lg:block">
             <Image
               src="/assets/home/desktopImg.svg"
               alt="Desktop application"

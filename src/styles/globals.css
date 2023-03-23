@@ -47,3 +47,7 @@
 .tool_gradient {
   background: radial-gradient(50% 50% at 50% 50%, #fb7185, #18181b);
 }
+
+.brandLine{
+  background:linear-gradient(90deg, #18181b,#407CFF,#DA8BFF,#FB7185,#18181b);
+}
