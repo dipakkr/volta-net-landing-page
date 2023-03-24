@@ -1,7 +1,10 @@
 import Link from "next/link";
+import { useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
+import MobileNav from "./MobileNav";
 
 const Navbar = () => {
+  const [open, setToggle] = useState(false);
   const linkStyle =
     "text-sm font-medium text-[#d4d4d8] hover:text-[#f6f6f6] focus:outline-none";
 
@@ -54,7 +57,11 @@ const Navbar = () => {
           </div>
           {/***************** hamburger menu ****************/}
           <div className="flex cursor-pointer lg:hidden">
-            <AiOutlineMenu size={24} />
+            <AiOutlineMenu size={24} onClick={() => setToggle(true)} />
+            <MobileNav
+              open={open}
+              setToggle={setToggle}
+            />
           </div>
 
           {/*****************Middle  Menu ****************/}
